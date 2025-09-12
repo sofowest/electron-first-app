@@ -5,4 +5,14 @@ body {
   margin: auto;
   max-width: 38rem;
   padding: 2rem;
+  background-color: #7B007B;
+  color: #fff887;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.25;
+  margin-bottom: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
