@@ -38,3 +38,18 @@ npm run make
 ```
 The output installers/packages will be in the `out/` directory.
 
+## Project Structure
+
+- `src/main.ts` - Main process (Electron app entry)
+- `src/preload.ts` - Preload script for secure context bridging
+- `src/renderer.ts` - Renderer process (frontend)
+- `index.html` - Main HTML file
+- `vite.*.config.ts` - Vite configs for each process
+- `forge.config.ts` - Electron Forge configuration
+
+## License
+
+MIT
+
+---
+**Author:** Leandro Gómez (<leandrogomezmdev@gmail.com>)
